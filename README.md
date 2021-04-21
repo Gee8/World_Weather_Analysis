@@ -1,1 +1,4 @@
 # World_Weather_Analysis
+
+## Purpose
+In this analysis, we created a travel map that is filtered by minimum and maximum temperatures. To do this, we generated 2000 random coordinates and matched them with cities and included weather information using API requests. After gathering this information we allowed the user to input their minimum and maximum temperatures for their vacations. After filtering the data to fit within their temperature requests, we added the first hotel within 5000 meters to the dataframe and dropped those that did not have a hotel avaliable. Using this, we generated a google map figure with markers to show each hotel with its city, country, and current weather. From here we chose four locations that were relatively close to each other and created a directional map that started and ended at the same place and visited the other three cities. 
